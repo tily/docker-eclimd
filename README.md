@@ -5,6 +5,11 @@ Docker image to run eclimd and use it from host-side vim / emacs.
 ## Usage
 
 ```
+## Tweak vim setting
+$ vi ~/.vimrc
+set nocompatible
+filetype plugin indent on
+
 ## Clone this repository
 $ git clone https://github.com/tily/docker-eclimd.git && cd docker-eclimd/
 
