@@ -1,0 +1,11 @@
+version: "3"
+services:
+  eclim:
+    image: tily/eclimd
+    build: .
+    env_file: .env
+    ports:
+      - 9091:9091
+    volumes:
+      - "${WORKSPACE_PATH}:${WORKSPACE_PATH}"
+    command: "${WORKSPACE_PATH}"
