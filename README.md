@@ -15,7 +15,6 @@ WORKSPACE_PATH=/home/tily/eclipse-workspace
 
 ## Run eclimd
 $ docker-compose up -d
-
 ```
 
 TODO: put the files below to the host system:
