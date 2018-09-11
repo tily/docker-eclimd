@@ -26,7 +26,7 @@ $ mkdir -p ~/.vim ~/.eclim/
 $ docker cp dockereclimd_eclim_1:/home/eclim/.vim/eclim ~/.vim/
 $ docker cp dockereclimd_eclim_1:/home/eclim/.vim/plugin ~/.vim/
 $ docker cp dockereclimd_eclim_1:/home/eclim/.eclim/.eclimd_instances ~/.eclim/.eclimd_instances
-$ sudo mkdir -p /opt/eclipse/plugins/org.eclim_3.8.0/bin/
+$ sudo mkdir -p /opt/eclipse/plugins/org.eclim_2.8.0/bin/
 $ sudo docker cp dockereclimd_eclim_1:/opt/eclipse/plugins/org.eclim_2.8.0/bin/eclim /opt/eclipse/plugins/org.eclim_2.8.0/bin/eclim
 $ sudo docker cp dockereclimd_eclim_1:/opt/eclipse/plugins/org.eclim_2.8.0/bin/ng /opt/eclipse/plugins/org.eclim_2.8.0/bin/ng
 ```
