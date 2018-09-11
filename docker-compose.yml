@@ -8,3 +8,4 @@ services:
     volumes:
       - "${WORKSPACE_PATH}:${WORKSPACE_PATH}"
     command: "${WORKSPACE_PATH}"
+    user: "${UID}:${GID}"
