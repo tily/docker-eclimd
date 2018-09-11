@@ -17,6 +17,8 @@ $ git clone https://github.com/tily/docker-eclimd.git && cd docker-eclimd/
 $ mkdir -p /home/tily/eclipse-workspace
 $ vi .env
 WORKSPACE_PATH=/home/tily/eclipse-workspace
+UID=1001
+GID=1001
 
 ## Run eclimd
 $ docker-compose up -d
